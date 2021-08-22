@@ -6,19 +6,21 @@
 
 ### Purpose
   
-  To determine whether there are specific factors that make a funding campaign successful and enable new Kickstarters to set their campaigns to mirror other successful               crowdfunding campaigns.
+  The objective is to determine whether there are specific factors that make a funding campaign successful and enable new Kickstarters to set their campaigns to mirror other         successful crowdfunding campaigns.
 
 ## Analysis and Challenges
     
 ### Analysis of Outcomes Based on Launch Date
-  
-
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88639467/130361305-31d554b4-8c6b-4dd9-b13d-699c6361f1f4.png)
+ 
+ In order to determine what time of the year is best to launch a crowdfunding campaign, I utilized data of all Theatre campaigns launched between 2010 and 2017 across multiple       countries. Creating a pivot table allowed me to group all outcomes (Successful, Failed, Canceled) by month. As indicated by the graph below, you can visually determine the best   and worst month to launch a Theatre campaign.
+ 
+ ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88639467/130363055-de0eb249-02b1-48b0-a210-ea07bbd10f1d.png)
 
 ### Analysis of Outcomes Based on Goals
 
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88639467/130359596-72c4c7de-a602-4ec6-8a9e-d89709c541bf.png)
+  In order to determine the best goal range to set on a new campaign, I used a (Count If) function to count the number and percentage of successful, failed and canceled campaigns   in my dataset. As indicated by the graph below, you can visually determine which goal ranges were the most successful.
 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88639467/130359596-72c4c7de-a602-4ec6-8a9e-d89709c541bf.png)
 
 ### Challenges and Difficulties Encountered
   There were no challenges encountered; however, there could have been challenges if the differing functions (Vlookup or Count If) or formulas were not performed correctly. If any   one piece of these are off, it can change the whole outcome which would alter the final analysis. 
