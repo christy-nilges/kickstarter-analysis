@@ -12,13 +12,13 @@
     
 ### Analysis of Outcomes Based on Launch Date
  
- In order to determine what time of the year is best to launch a crowdfunding campaign, I utilized data of all Theatre campaigns launched between 2010 and 2017 across multiple       countries. Creating a pivot table allowed me to group all outcomes (Successful, Failed, Canceled) by month. As indicated by the graph below, you can visually determine the best   and worst month to launch a Theatre campaign.
+ In order to determine what time of the year is best to launch a crowdfunding campaign, I utilized data of all campaigns launched between 2009 and 2017 across multiple               countries. Creating a pivot table allowed me to group all outcomes (Successful, Failed, Canceled) by month and then I filtered by the Theatre - Parent Category. As indicated by   the graph below, it is easy to visually determine the best and worst month to launch a Theatre campaign.
  
  ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88639467/130363055-de0eb249-02b1-48b0-a210-ea07bbd10f1d.png)
 
 ### Analysis of Outcomes Based on Goals
 
-  In order to determine the best goal range to set on a new campaign, I used a (Count If) function to count the number and percentage of successful, failed and canceled campaigns   in my dataset. As indicated by the graph below, you can visually determine which goal ranges were the most successful.
+  In order to determine the best goal range to set on a new campaign, I used a (Count If) function to count the number and percentage of successful, failed and canceled campaigns   in my dataset. As indicated by the graph below, it is easy to visually determine which goal ranges were the most successful.
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88639467/130359596-72c4c7de-a602-4ec6-8a9e-d89709c541bf.png)
 
@@ -29,8 +29,8 @@
 
   Based on the analysis pertaining to the Outcomes based on Launch Date, the following can be concluded;
   
-     - The most successful time of the year to launch a Theater crowdfunding campaign is May and June
-     - The least successful time of the year to launch a Theater crowdfunding campaign is December
+     1. The most successful time of the year to launch a Theater crowdfunding campaign is May and June
+     2. The least successful time of the year to launch a Theater crowdfunding campaign is December
 
   Based on the analysis pertaining to the Outcomes based on Goals, the following can be concluded;
       The highest percentage of successful campaigns with a 76% success rate had a goal of less than $1000 and closely following with 73% is the goal range of $1000 to $4999.           Campaigns with a goal of less than $5000 have the most successful outcomes.  
